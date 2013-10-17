@@ -1,4 +1,13 @@
 T::Application.routes.draw do
+  resources :micropost1s
+
+
+  resources :microposts
+
+
+  resources :users
+
+
   resources :posts
 
 
